@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using app.Strategy.Ducks.Behaviors;
+using app.Strategy.Duck.Behaviors;
 
-namespace app.Strategy.Ducks.Ducks
+namespace app.Strategy.Duck.Ducks
 {
   public abstract class Duck
     {

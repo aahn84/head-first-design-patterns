@@ -1,0 +1,13 @@
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\bin\Debug\netcoreapp3.1\app.Strategy.Duck.exe
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\bin\Debug\netcoreapp3.1\app.Strategy.Duck.deps.json
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\bin\Debug\netcoreapp3.1\app.Strategy.Duck.runtimeconfig.json
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\bin\Debug\netcoreapp3.1\app.Strategy.Duck.runtimeconfig.dev.json
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\bin\Debug\netcoreapp3.1\app.Strategy.Duck.dll
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\bin\Debug\netcoreapp3.1\app.Strategy.Duck.pdb
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.Strategy.Duck.csprojAssemblyReference.cache
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.Strategy.Duck.AssemblyInfoInputs.cache
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.Strategy.Duck.AssemblyInfo.cs
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.Strategy.Duck.csproj.CoreCompileInputs.cache
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.Strategy.Duck.dll
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.Strategy.Duck.pdb
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.Strategy.Duck.genruntimeconfig.cache

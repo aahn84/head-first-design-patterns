@@ -1,5 +1,5 @@
 ﻿using System;
-using app.Strategy.Ducks.Ducks;
+using app.Strategy.Duck.Ducks;
 
 namespace HeadFirstDesignPatterns
 {

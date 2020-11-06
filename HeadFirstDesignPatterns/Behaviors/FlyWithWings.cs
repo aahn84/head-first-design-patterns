@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace app.Strategy.Ducks.Behaviors
+namespace app.Strategy.Duck.Behaviors
 {
     public class FlyWithWings : FlyBehavior
     {
