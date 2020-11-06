@@ -7,6 +7,8 @@ namespace HeadFirstDesignPatterns.Strategy
     {
         public static void Run()
         {
+            Console.WriteLine("// MiniDuckSimulator //");
+
             Duck mallard = new MallardDuck();
             mallard.PerformQuack();
             mallard.PerformFly();

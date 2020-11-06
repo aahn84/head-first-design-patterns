@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace app.HeadFirstDesignPatterns.Strategy
+namespace app.Strategy.Duck.Behaviors
 {
-    public interface QuackBehavior
+    public interface IQuackBehavior
     {
         public void Quacking();
     }

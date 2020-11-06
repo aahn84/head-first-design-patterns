@@ -1,22 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using app.Strategy.Duck.Behaviors;
 
 namespace app.HeadFirstDesignPatterns.Strategy
 {
   public abstract class Duck
     {
-        public FlyBehavior flyBehavior;
-        public QuackBehavior quackBehavior;
+        public IFlyBehavior flyBehavior;
+        public IQuackBehavior quackBehavior;
 
         protected Duck() { }
 
-        public void SetFlyBehavior(FlyBehavior fb)
+        public void SetFlyBehavior(IFlyBehavior fb)
         {
             flyBehavior = fb;
         }
 
-        public void SetQuackBehavior(QuackBehavior qb)
+        public void SetQuackBehavior(IQuackBehavior qb)
         {
             quackBehavior = qb;
         }

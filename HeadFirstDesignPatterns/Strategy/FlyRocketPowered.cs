@@ -4,7 +4,7 @@ using System.Text;
 
 namespace app.HeadFirstDesignPatterns.Strategy
 {
-    public class FlyRocketPowered: FlyBehavior
+    public class FlyRocketPowered: IFlyBehavior
     {
         public void Fly()
         {
