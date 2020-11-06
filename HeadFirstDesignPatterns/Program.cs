@@ -7,11 +7,11 @@ namespace HeadFirstDesignPatterns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World...This is my MiniDucks app!");
+            Console.WriteLine("Hello World...This is my MiniDuckSimulator!");
 
             Duck mallard = new MallardDuck();
-            mallard.performQuack();
-            mallard.performFly();
+            mallard.PerformQuack();
+            mallard.PerformFly();
         }
     }
 }

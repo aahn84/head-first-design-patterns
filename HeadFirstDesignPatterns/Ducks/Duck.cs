@@ -14,17 +14,17 @@ namespace app.Strategy.Duck.Ducks
 
         public abstract void display();
 
-        public void performFly()
+        public void PerformFly()
         {
             flyBehavior.fly();
         }
 
-        public void performQuack()
+        public void PerformQuack()
         {
             quackBehavior.quack();
         }
 
-        public void swim()
+        public void Swim()
         {
             Console.WriteLine("All ducks float, even decoys!");
         }
