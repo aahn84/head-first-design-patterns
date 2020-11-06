@@ -6,6 +6,6 @@ namespace app.Strategy.Duck.Behaviors
 {
     public interface QuackBehavior
     {
-        public void quack();
+        public void Quacking();
     }
 }

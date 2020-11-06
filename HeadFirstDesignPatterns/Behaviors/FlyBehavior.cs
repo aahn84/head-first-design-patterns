@@ -6,6 +6,6 @@ namespace app.Strategy.Duck.Behaviors
 {
     public interface FlyBehavior
     {
-        public void fly();
+        public void Fly();
     }
 }

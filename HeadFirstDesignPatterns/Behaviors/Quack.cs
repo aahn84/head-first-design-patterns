@@ -6,7 +6,7 @@ namespace app.Strategy.Duck.Behaviors
 {
     public class Quack : QuackBehavior
     {
-        public void quack()
+        public void Quacking()
         {
             Console.WriteLine("Quack");
         }

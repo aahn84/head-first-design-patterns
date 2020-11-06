@@ -10,18 +10,28 @@ namespace app.Strategy.Duck.Ducks
         public FlyBehavior flyBehavior;
         public QuackBehavior quackBehavior;
 
-        public Duck() { }
+        protected Duck() { }
 
-        public abstract void display();
+        public void SetFlyBehavior(FlyBehavior fb)
+        {
+            flyBehavior = fb;
+        }
+
+        public void SetQuackBehavior(QuackBehavior qb)
+        {
+            quackBehavior = qb;
+        }
+
+        public abstract void Display();
 
         public void PerformFly()
         {
-            flyBehavior.fly();
+            flyBehavior.Fly();
         }
 
         public void PerformQuack()
         {
-            quackBehavior.quack();
+            quackBehavior.Quacking();
         }
 
         public void Swim()

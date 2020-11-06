@@ -1,9 +1,10 @@
 ﻿using System;
+using app.Strategy.Duck.Behaviors;
 using app.Strategy.Duck.Ducks;
 
 namespace HeadFirstDesignPatterns
 {
-    class Program
+    class MiniDuckSimulator
     {
         static void Main(string[] args)
         {
@@ -12,6 +13,11 @@ namespace HeadFirstDesignPatterns
             Duck mallard = new MallardDuck();
             mallard.PerformQuack();
             mallard.PerformFly();
+
+            Duck model = new ModelDuck();
+            model.PerformFly();
+            model.SetFlyBehavior(new FlyRocketPowered());
+            model.PerformFly();
         }
     }
 }

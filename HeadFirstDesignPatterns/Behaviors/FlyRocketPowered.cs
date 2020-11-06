@@ -4,11 +4,11 @@ using System.Text;
 
 namespace app.Strategy.Duck.Behaviors
 {
-    public class MuteQuack : QuackBehavior
+    public class FlyRocketPowered: FlyBehavior
     {
-        public void Quacking()
+        public void Fly()
         {
-            Console.WriteLine("<<Silence>>");
+            Console.WriteLine("I'm flying with a rocket!");
         }
     }
 }

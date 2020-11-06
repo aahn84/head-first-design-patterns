@@ -5,17 +5,17 @@ using app.Strategy.Duck.Behaviors;
 
 namespace app.Strategy.Duck.Ducks
 {
-    public class MallardDuck : Duck
+  public class ModelDuck : Duck
     {
-        public MallardDuck()
+        public ModelDuck()
         {
+            flyBehavior = new FlyNoWWay();
             quackBehavior = new Quack();
-            flyBehavior = new FlyWithWings();
         }
 
         public override void Display()
         {
-            Console.WriteLine("I'm a real Mallard duck");
+            Console.WriteLine("I'm a model duck");
         }
     }
 }
