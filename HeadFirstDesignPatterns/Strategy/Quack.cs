@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace app.Strategy.Duck.Behaviors
+namespace app.HeadFirstDesignPatterns.Strategy
 {
-    public class MuteQuack : QuackBehavior
+    public class Quack : QuackBehavior
     {
         public void Quacking()
         {
-            Console.WriteLine("<<Silence>>");
+            Console.WriteLine("Quack");
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MKh6T7YMgZ1qJgAjJXkFfVeQ+AcZJptFRnm1DjrC79l+3EUoinWOmw8ZxaBiVVWnrLGRDOs6WZ6VEREe2P9rfQ==",
+  "dgSpecHash": "gW2y0zEuSyJGRGwGk8fn8QjMR/YTHRs4VdRzurq4c/d+q2IfOySo7bxO1d0FrJHcbbZzFa8ObSlKt/OnvW028A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aahn\\source\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\app.Strategy.Duck.csproj",
+  "projectFilePath": "C:\\Users\\aahn\\source\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\app.HeadFirstDesignPatterns.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

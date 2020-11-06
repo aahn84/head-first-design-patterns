@@ -1,15 +1,12 @@
 ﻿using System;
-using app.Strategy.Duck.Behaviors;
-using app.Strategy.Duck.Ducks;
+using app.HeadFirstDesignPatterns.Strategy;
 
-namespace HeadFirstDesignPatterns
+namespace HeadFirstDesignPatterns.Strategy
 {
-    class MiniDuckSimulator
+    public static class MiniDuckSimulator
     {
-        static void Main(string[] args)
+        public static void Run()
         {
-            Console.WriteLine("Hello World...This is my MiniDuckSimulator!");
-
             Duck mallard = new MallardDuck();
             mallard.PerformQuack();
             mallard.PerformFly();

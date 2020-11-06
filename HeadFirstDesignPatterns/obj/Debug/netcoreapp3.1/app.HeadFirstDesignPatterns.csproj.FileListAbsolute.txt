@@ -1,0 +1,13 @@
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\bin\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.exe
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\bin\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.deps.json
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\bin\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.runtimeconfig.json
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\bin\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.runtimeconfig.dev.json
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\bin\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.dll
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\bin\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.pdb
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.csprojAssemblyReference.cache
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.AssemblyInfoInputs.cache
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.AssemblyInfo.cs
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.csproj.CoreCompileInputs.cache
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.dll
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.pdb
+C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.genruntimeconfig.cache

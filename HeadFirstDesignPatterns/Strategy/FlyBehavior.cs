@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace app.Strategy.Duck.Behaviors
+namespace app.HeadFirstDesignPatterns.Strategy
 {
     public interface FlyBehavior
     {
