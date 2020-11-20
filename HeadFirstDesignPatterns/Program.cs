@@ -8,6 +8,7 @@ namespace app.HeadFirstDesignPatterns
     {
         static void Main(string[] args)
         {
+            // Chapter 1 - Strategy
             MiniDuckSimulator.Run();
         }
     }
