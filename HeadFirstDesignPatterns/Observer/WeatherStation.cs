@@ -13,6 +13,7 @@ namespace app.HeadFirstDesignPatterns.Observer
             var currentConditionsDisplay = new CurrentConditionsDisplay(weatherData);
             var statisticsDisplay = new StatisticsDisplay(weatherData);
             var forecastDisplay = new ForecastDisplay(weatherData);
+            var heatIndexDisplay = new HeatIndexDisplay(weatherData);
 
             weatherData.SetMeasurements(80, 65, 30.4f);
             Console.WriteLine("-----");
