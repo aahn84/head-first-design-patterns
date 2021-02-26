@@ -10,11 +10,11 @@ namespace app.HeadFirstDesignPatterns.CommandPattern
     {
         public static void Run()
         {
-            SimpleRemoteControl remote = new SimpleRemoteControl();
-            Light light = new Light();
-            GarageDoor garageDoor = new GarageDoor();
-            LightOnCommand lightOn = new LightOnCommand(light);
-            GarageDoorUpCommand garageOpen = new GarageDoorUpCommand(garageDoor);
+            var remote = new SimpleRemoteControl();
+            var light = new Light();
+            var garageDoor = new GarageDoor();
+            var lightOn = new LightOnCommand(light);
+            var garageOpen = new GarageDoorUpCommand(garageDoor);
 
             remote.SetCommand(lightOn);
             remote.ButtonWasPressed();

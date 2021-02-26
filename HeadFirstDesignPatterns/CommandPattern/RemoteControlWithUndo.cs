@@ -5,12 +5,13 @@ using app.HeadFirstDesignPatterns.CommandPattern.Commands;
 
 namespace app.HeadFirstDesignPatterns.CommandPattern
 {
-    public class RemoteControl
+    public class RemoteControlWithUndo
     {
-        private readonly ICommand[] _onCommands;
-        private readonly ICommand[] _offCommands;
+        private ICommand[] _onCommands;
+        private ICommand[] _offCommands;
+        private ICommand _undoCommand;
 
-        public RemoteControl()
+        public RemoteControlWithUndo()
         {
             _onCommands = new ICommand[7];
             _offCommands = new ICommand[7];
@@ -22,6 +23,8 @@ namespace app.HeadFirstDesignPatterns.CommandPattern
                 _onCommands[i] = noCommand;
                 _offCommands[i] = noCommand;
             }
+
+            _undoCommand = noCommand;
         }
 
         public void SetCommand(int slot, ICommand onCommand, ICommand offCommand)
@@ -33,11 +36,18 @@ namespace app.HeadFirstDesignPatterns.CommandPattern
         public void OnButtonWasPushed(int slot)
         {
             _onCommands[slot].Execute();
+            _undoCommand = _onCommands[slot];
         }
 
         public void OffButtonWasPushed(int slot)
         {
             _offCommands[slot].Execute();
+            _undoCommand = _offCommands[slot];
+        }
+
+        public void UndoButtonWasPushed(int slot)
+        {
+            _undoCommand.Undo();
         }
 
         public override string ToString()

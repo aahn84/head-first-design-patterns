@@ -6,41 +6,41 @@ namespace app.HeadFirstDesignPatterns.CommandPattern.Commands.Stereos
 {
     public class Stereo
     {
-        private readonly string _name;
+        private readonly string _location;
 
-        public Stereo(string name = "")
+        public Stereo(string location = "")
         {
-            _name = name;
+            _location = location;
         }
 
         public void On()
         {
-            Console.Write($"{_name} Stereo is On");
+            Console.Write($"{_location} Stereo is On");
         }
 
         public void Off()
         {
-            Console.Write($"{_name} Stereo is Off");
+            Console.Write($"{_location} Stereo is Off");
         }
 
         public void SetCD()
         {
-            Console.Write($"{_name} Stereo is set for CD input");
+            Console.Write($"{_location} Stereo is set for CD input");
         }
 
         public void SetDVD()
         {
-            Console.Write($"{_name} Stereo is set for DVD input");
+            Console.Write($"{_location} Stereo is set for DVD input");
         }
 
         public void SetRadio()
         {
-            Console.Write($"{_name} Stereo is set for Radio input");
+            Console.Write($"{_location} Stereo is set for Radio input");
         }
 
         public void SetVolume(int level)
         {
-            Console.Write($"{_name} Stereo volume set to {level}");
+            Console.Write($"{_location} Stereo volume set to {level}");
         }
     }
 }

@@ -9,5 +9,9 @@ namespace app.HeadFirstDesignPatterns.CommandPattern.Commands
         public void Execute()
         {
         }
+
+        public void Undo()
+        {
+        }
     }
 }

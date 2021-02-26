@@ -17,5 +17,10 @@ namespace app.HeadFirstDesignPatterns.CommandPattern.Commands.Lights
         {
             _light.On();
         }
+
+        public void Undo()
+        {
+            _light.Off();
+        }
     }
 }

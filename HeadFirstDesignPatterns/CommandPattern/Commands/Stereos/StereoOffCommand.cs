@@ -19,5 +19,10 @@ namespace app.HeadFirstDesignPatterns.CommandPattern.Commands.Stereos
         {
             _stereo.Off();
         }
+
+        public void Undo()
+        {
+            _stereo.On();
+        }
     }
 }

@@ -6,11 +6,11 @@ namespace app.HeadFirstDesignPatterns.CommandPattern.Commands.Lights
 {
     public class GarageDoor
     {
-        private readonly string _name;
+        private readonly string _location;
 
-        public GarageDoor(string name = "")
+        public GarageDoor(string location = "")
         {
-            _name = name;
+            _location = location;
         }
 
         public void Open()

@@ -19,5 +19,10 @@ namespace app.HeadFirstDesignPatterns.CommandPattern.Commands.GarageDoors
         {
             _garageDoor.Close();
         }
+
+        public void Undo()
+        {
+            _garageDoor.Open();
+        }
     }
 }

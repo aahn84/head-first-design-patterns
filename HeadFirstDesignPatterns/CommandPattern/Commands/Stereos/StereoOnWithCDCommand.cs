@@ -23,5 +23,10 @@ namespace app.HeadFirstDesignPatterns.CommandPattern.Commands.Stereos
             Console.WriteLine();
             _stereo.SetVolume(11);
         }
+
+        public void Undo()
+        {
+            _stereo.Off();
+        }
     }
 }

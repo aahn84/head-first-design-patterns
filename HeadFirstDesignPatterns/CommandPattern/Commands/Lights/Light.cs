@@ -6,21 +6,21 @@ namespace app.HeadFirstDesignPatterns.CommandPattern.Commands.Lights
 {
     public class Light
     {
-        private readonly string _name;
+        private readonly string _location;
 
-        public Light(string name = "")
+        public Light(string location = "")
         {
-            _name = name;
+            _location = location;
         }
 
         public void On()
         {
-            Console.Write($"{_name} Light is On");
+            Console.Write($"{_location} Light is On");
         }
 
         public void Off()
         {
-            Console.Write($"{_name} Light is Off");
+            Console.Write($"{_location} Light is Off");
         }
     }
 }
