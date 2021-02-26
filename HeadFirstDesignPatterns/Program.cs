@@ -1,7 +1,8 @@
 ﻿using System;
-using app.HeadFirstDesignPatterns.Decorator;
-using app.HeadFirstDesignPatterns.Observer;
-using app.HeadFirstDesignPatterns.Singleton;
+using app.HeadFirstDesignPatterns.DecoratorPattern;
+using app.HeadFirstDesignPatterns.FactoryPattern;
+using app.HeadFirstDesignPatterns.ObserverPattern;
+using app.HeadFirstDesignPatterns.SingletonPattern;
 using HeadFirstDesignPatterns.Strategy;
 
 namespace app.HeadFirstDesignPatterns
