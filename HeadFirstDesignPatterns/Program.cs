@@ -57,6 +57,9 @@ namespace app.HeadFirstDesignPatterns
             Console.WriteLine("// SIMPLE REMOTE //");
             SimpleRemoteControlTest.Run();
             Console.WriteLine();
+            Console.WriteLine("// REMOTE LOADER //");
+            RemoteLoader.Run();
+            Console.WriteLine();
         }
     }
 }

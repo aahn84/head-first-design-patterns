@@ -5,9 +5,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="CommandPattern\Commands\Stereos\" />
-    <Folder Include="CommandPattern\Commands\CeilingFans\" />
-  </ItemGroup>
-
 </Project>

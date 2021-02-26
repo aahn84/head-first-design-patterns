@@ -6,18 +6,18 @@ using app.HeadFirstDesignPatterns.CommandPattern.Commands.Lights;
 
 namespace app.HeadFirstDesignPatterns.CommandPattern.Commands.GarageDoors
 {
-    public class GarageDoorOpenCommand : ICommand
+    public class GarageDoorDownCommand : ICommand
     {
         private readonly GarageDoor _garageDoor;
 
-        public GarageDoorOpenCommand(GarageDoor garageDoor)
+        public GarageDoorDownCommand(GarageDoor garageDoor)
         {
             _garageDoor = garageDoor;
         }
 
         public void Execute()
         {
-            _garageDoor.Open();
+            _garageDoor.Close();
         }
     }
 }
