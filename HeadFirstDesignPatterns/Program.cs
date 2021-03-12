@@ -1,4 +1,5 @@
 ﻿using System;
+using app.HeadFirstDesignPatterns.AdapterPattern;
 using app.HeadFirstDesignPatterns.CommandPattern;
 using app.HeadFirstDesignPatterns.DecoratorPattern;
 using app.HeadFirstDesignPatterns.FactoryPattern;
@@ -64,6 +65,13 @@ namespace app.HeadFirstDesignPatterns
             Console.WriteLine();
             Console.WriteLine("// REMOTE LOADER WITH UNDO //");
             RemoteLoaderWithUndo.Run();
+            Console.WriteLine();
+
+            //Chapter 7 - Adapter & Facade
+            Console.WriteLine("********** CH.7 - ADAPTER & FACADE **********");
+            Console.WriteLine();
+            Console.WriteLine("// DUCK ADAPTER //");
+            DuckAdapterTestDrive.Run();
             Console.WriteLine();
         }
     }
