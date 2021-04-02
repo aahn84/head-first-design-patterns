@@ -5,6 +5,9 @@ using app.HeadFirstDesignPatterns.DecoratorPattern;
 using app.HeadFirstDesignPatterns.FactoryPattern;
 using app.HeadFirstDesignPatterns.ObserverPattern;
 using app.HeadFirstDesignPatterns.SingletonPattern;
+using app.HeadFirstDesignPatterns.TemplateMethodPattern.Barista;
+using app.HeadFirstDesignPatterns.TemplateMethodPattern.BaristaWithHook;
+using app.HeadFirstDesignPatterns.TemplateMethodPattern.DuckSort;
 using HeadFirstDesignPatterns.Strategy;
 
 namespace app.HeadFirstDesignPatterns
@@ -72,6 +75,21 @@ namespace app.HeadFirstDesignPatterns
             Console.WriteLine();
             Console.WriteLine("// DUCK ADAPTER //");
             DuckAdapterTestDrive.Run();
+            Console.WriteLine();
+
+            //Chapter 8 - Template Method
+            Console.WriteLine("********** CH.8 - TEMPLATE METHOD **********");
+            Console.WriteLine();
+            Console.WriteLine("// BARISTA //");
+            BeverageTestDrive.Run();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("// BARISTA WITH HOOK //");
+            BeverageTestDriveWithHook.Run();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("// DUCK SORT //");
+            DuckSortTestDrive.Run();
             Console.WriteLine();
         }
     }
