@@ -3,6 +3,8 @@ using app.HeadFirstDesignPatterns.AdapterPattern;
 using app.HeadFirstDesignPatterns.CommandPattern;
 using app.HeadFirstDesignPatterns.DecoratorPattern;
 using app.HeadFirstDesignPatterns.FactoryPattern;
+using app.HeadFirstDesignPatterns.IteratorAndCompositePattern;
+using app.HeadFirstDesignPatterns.IteratorAndCompositePattern.Composite;
 using app.HeadFirstDesignPatterns.ObserverPattern;
 using app.HeadFirstDesignPatterns.SingletonPattern;
 using app.HeadFirstDesignPatterns.TemplateMethodPattern.Barista;
@@ -90,6 +92,18 @@ namespace app.HeadFirstDesignPatterns
             Console.WriteLine();
             Console.WriteLine("// DUCK SORT //");
             DuckSortTestDrive.Run();
+            Console.WriteLine();
+
+            //Chapter 9 - Iterator & Composite
+            Console.WriteLine("********** CH.9 - ITERATOR & COMPOSITE **********");
+            Console.WriteLine();
+            Console.WriteLine("*** ITERATOR ***");
+            Console.WriteLine();
+            Console.WriteLine("// DINER MENU //");
+            DinerMenuTestDrive.Run();
+            Console.WriteLine();
+            Console.WriteLine("*** COMPOSITE ***");
+            MenuTestDrive.Run();
             Console.WriteLine();
         }
     }
