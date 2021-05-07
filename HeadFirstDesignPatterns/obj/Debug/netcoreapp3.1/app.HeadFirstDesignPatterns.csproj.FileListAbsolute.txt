@@ -11,3 +11,16 @@ C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDe
 C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.dll
 C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.pdb
 C:\Users\aahn\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.genruntimeconfig.cache
+C:\Users\angah\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\bin\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.exe
+C:\Users\angah\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\bin\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.deps.json
+C:\Users\angah\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\bin\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.runtimeconfig.json
+C:\Users\angah\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\bin\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.runtimeconfig.dev.json
+C:\Users\angah\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\bin\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.dll
+C:\Users\angah\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\bin\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.pdb
+C:\Users\angah\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.csprojAssemblyReference.cache
+C:\Users\angah\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.AssemblyInfoInputs.cache
+C:\Users\angah\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.AssemblyInfo.cs
+C:\Users\angah\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.csproj.CoreCompileInputs.cache
+C:\Users\angah\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.dll
+C:\Users\angah\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.pdb
+C:\Users\angah\source\HeadFirstDesignPatterns\HeadFirstDesignPatterns\HeadFirstDesignPatterns\obj\Debug\netcoreapp3.1\app.HeadFirstDesignPatterns.genruntimeconfig.cache

@@ -1,35 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aahn\\source\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\app.HeadFirstDesignPatterns.csproj": {}
+    "C:\\Users\\angah\\source\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\app.HeadFirstDesignPatterns.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aahn\\source\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\app.HeadFirstDesignPatterns.csproj": {
+    "C:\\Users\\angah\\source\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\app.HeadFirstDesignPatterns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aahn\\source\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\app.HeadFirstDesignPatterns.csproj",
+        "projectUniqueName": "C:\\Users\\angah\\source\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\app.HeadFirstDesignPatterns.csproj",
         "projectName": "app.HeadFirstDesignPatterns",
-        "projectPath": "C:\\Users\\aahn\\source\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\app.HeadFirstDesignPatterns.csproj",
-        "packagesPath": "C:\\Users\\aahn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aahn\\source\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\obj\\",
+        "projectPath": "C:\\Users\\angah\\source\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\app.HeadFirstDesignPatterns.csproj",
+        "packagesPath": "C:\\Users\\angah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\angah\\source\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\HeadFirstDesignPatterns\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\aahn\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\angah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://builder/guestAuth/app/nuget/feed/_Root/default/v2": {},
-          "https://api.nuget.org/v3/index.json": {},
+          "http://builder.evo.local/guestAuth/app/nuget/v1/FeedService.svc/": {},
           "https://nuget.org/api/v2/": {}
         },
         "frameworks": {
@@ -62,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
