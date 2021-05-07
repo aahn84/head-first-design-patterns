@@ -8,6 +8,7 @@ using app.HeadFirstDesignPatterns.IteratorAndCompositePattern.Composite;
 using app.HeadFirstDesignPatterns.ObserverPattern;
 using app.HeadFirstDesignPatterns.SingletonPattern;
 using app.HeadFirstDesignPatterns.StatePattern.GumballMachine;
+using app.HeadFirstDesignPatterns.StatePattern.GumballMachineWithState;
 using app.HeadFirstDesignPatterns.TemplateMethodPattern.Barista;
 using app.HeadFirstDesignPatterns.TemplateMethodPattern.BaristaWithHook;
 using app.HeadFirstDesignPatterns.TemplateMethodPattern.DuckSort;
@@ -114,7 +115,7 @@ namespace app.HeadFirstDesignPatterns
             GumballMachineTestDrive.Run();
             Console.WriteLine();
             Console.WriteLine("// GUMBALL MACHINE WITH STATE //");
-            //MenuTestDrive.Run();
+            GumballMachineWithStateTestDrive.Run();
             Console.WriteLine();
         }
     }

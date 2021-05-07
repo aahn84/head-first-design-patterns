@@ -13,10 +13,10 @@ namespace app.HeadFirstDesignPatterns.StatePattern.GumballMachine
         private int _state = SOLD_OUT;
         private int _count;
 
-        public GumballMachine(int count)
+        public GumballMachine(int numberOfGumballs)
         {
-            _count = count;
-            if (count > 0)
+            _count = numberOfGumballs;
+            if (numberOfGumballs > 0)
             {
                 _state = NO_QUARTER;
             }
@@ -124,34 +124,27 @@ namespace app.HeadFirstDesignPatterns.StatePattern.GumballMachine
 
         public override string ToString()
         {
-            StringBuilder result = new StringBuilder();
-            result.Append("\nMighty Gumball, Inc.");
-            result.Append("\nC#-enabled Standing Gumball Model #2021\n");
-            if (_count == 1)
-            {
-                result.Append("Inventory: " + _count + " gumball");
-            }
-            else
-            {
-                result.Append("Inventory: " + _count + " gumballs");
-            }
+            var result = new StringBuilder();
+            result.AppendLine("Mighty Gumball, Inc.");
+            result.AppendLine("C#-enabled Standing Gumball Model #2021");
+            result.AppendLine(_count == 1 ? $"Inventory: {_count} gumball" : $"Inventory: {_count} gumballs");
             if (_state == SOLD_OUT)
             {
-                result.Append("\nMachine is sold out");
+                result.AppendLine("Machine is sold out");
             }
             else if (_state == NO_QUARTER)
             {
-                result.Append("\nMachine is waiting for quarter");
+                result.AppendLine("Machine is waiting for quarter");
             }
             else if (_state == HAS_QUARTER)
             {
-                result.Append("\nMachine is waiting for turn of crank");
+                result.AppendLine("Machine is waiting for turn of crank");
             }
             else if (_state == SOLD)
             {
-                result.Append("\nMachine is delivering a gumball");
+                result.AppendLine("Machine is delivering a gumball");
             }
-            result.Append("\n");
+            result.AppendLine();
             return result.ToString();
         }
     }
